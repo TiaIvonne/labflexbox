@@ -1,0 +1,703 @@
+
+/*suitable for smartphones */
+
+
+/*max-width: 768px*/
+
+body{
+     margin: 0;
+    background-color: white;
+}
+
+nav ul{
+    display: none;
+}
+
+.flex-container-navigator{
+    background-color: white;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    width:100%;
+    flex-direction: row;
+    height: 50px;
+    padding: 30px;
+    padding-top: 5px;
+    
+}
+
+.flex-container-navigator > #slack{
+    width: 100px; 
+    height: 60px;
+    padding: 20px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.flex-container-navigator> #hamburguer{
+    width: 70px; 
+    height: 50px;
+    padding: 20px;
+    margin-right: 50px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    display: block;
+}
+
+
+/*end navigator items */
+
+/*Star Header configuration */
+
+.flex-container-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: CircularPro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+    font-weight: 400;
+    line-height: 2;
+    letter-spacing: normal;
+    font-size: 18px;
+    
+}
+
+.flex-container-header > h1{
+    margin-top: 60px;
+    width: 100%;
+    font-family: times new roman;  
+    display: flex;
+    flex-flow: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    
+}
+
+.flex-container-header > .p{
+    display: flex;
+    align-content: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    font-size: 18px;
+}
+
+.flex-container-header > button{
+    background: darkblue;
+    padding: 1em 6em;
+    font-size: .9em;
+    color: white;
+    width: 90%;
+    text-decoration: none;
+    border-radius: 9px 9px 9px 9px;
+    border-color: darkblue;
+    align-items: flex-end;
+    
+}
+
+.flex-container-header > p1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container-header > img{
+    display:flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%768
+
+
+}
+
+/*Start main configuration */
+
+
+.flex-container-main{
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    padding: 30px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: lightgray;
+    font-size: 25px;
+    width: 100%;
+}
+
+.flex-container-main h2{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    background-color: lightgray;
+        
+    
+}
+#c{
+    font-size: 18px;
+    text-align: center;
+        
+}
+
+.flex-container-main > button{
+    background: white;
+    padding: 1em 4em;
+    font-size: .9em;
+    margin: 1em;
+    color: darkblue;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 9px 9px 9px 9px;
+    border-color: darkblue;
+    width: 100%;
+}
+.flex-container-main > p1{
+    justify-content: center;
+}
+
+.imagen-configuration{ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: lightgray;
+    width: 100%;
+
+    }
+
+.imagen-configuration > img{
+    margin: 40px;
+    border-bottom: 1px solid #C0C0C0;
+    padding-bottom: 30px;
+    }
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: white;
+
+}
+.container > #a{
+    order: 1;
+    
+}
+.container > #b{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background: darkblue;
+    font-size: .9em;
+    margin-left: 50px;
+    border-radius: 9px 9px 9px 9px;
+    border-color: darkblue;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 100%;
+    height: 50px;
+    order: 2;
+}
+
+#c{
+    order: 3;
+    align-content: center;
+    background-color: white;
+}
+    
+
+.grid {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: baseline;
+        flex-wrap: wrap;
+        flex-direction: row;
+        font-size: 18px;
+        font-family: 
+        CircularPro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+        color: gray;
+        margin-left: 30px;
+        margin-right: 30px;
+
+}
+
+.grid > ul{
+    list-style-type: none;
+}
+
+.last{
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background-color: lightgray;
+    flex-direction: column;
+    width: 100%;
+    padding:30px;
+    color: darkslategray;
+    font-family:  CircularPro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+}
+
+.last > ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-size: 18px;
+    padding: 0;
+    border: 2px;
+    width: 500px;
+    
+}
+
+.last > .flag{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 300px;
+    font-size: 18px;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.last > .socialmedia{
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+    align-content: center;
+    height: 50px;
+}
+
+
+/*}*/
+/*End */
+
+
+/* +++++++++++ MEDIA RESPONSIVE CONFIGURATION ++++++++++ */
+
+
+
+@media only screen and (min-width: 885px) and (max-width: 961px) {
+    
+    /*Navigator */
+    
+    body{
+        margin: 0;
+        
+    }
+    
+
+    /*Header */
+    
+    .flex-container-header{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-start;
+        align-content: flex-end;
+        align-items: flex-end;
+        width: 100%;
+ 
+    
+    }
+    
+    .flex-container-header > button{
+        width: 40%;  
+        display: flex;
+        justify-content: center;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .flex-container-header > img{
+        display: flex;
+        align-self: center;
+        width: 100%;
+        
+    }
+    
+    /*Main */
+
+    .flex-container-main > button{
+        width: 100%;
+    }   
+    
+    .imagen-configuration{ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: lightgray;
+    width: 100%;
+
+    }
+
+   .imagen-configuration > img{
+ 
+        border-bottom: 1px solid #C0C0C0;
+        align-items: baseline;
+       
+    }
+    
+    .flex-container-main{
+        display: flex;
+        flex-direction: column;
+    
+    }
+    
+    .container{
+        display: flex;
+        flex-flow: wrap;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-content: space-between;
+        align-items: baseline;
+        margin: 20px;
+        padding: 10px;
+       
+    }
+    
+    .container > #a{
+        flex-grow: 1;
+        order: 1;
+    }
+    
+    .container > #b{
+        width: 50%;
+        order: 2;
+        
+    }
+    .container > #c{
+        justify-content: flex-start;
+    }
+
+ 
+    
+
+
+/* footer */
+    
+    .grid {
+        justify-content: center;
+        align-items: baseline;
+        flex-direction: row;
+        list-style-type: none;
+        display: grid;
+        grid: 300px / auto auto auto auto ;
+        grid-gap: 20px;
+        font-size: 18px;
+        margin-left: 30px;
+        font-family: 
+        CircularPro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+        color: gray
+    }
+    
+
+    
+    .last{
+        display: flex;
+        align-items: center;
+        align-content: space-between;
+        justify-content: space-between;
+        background-color: lightgray;
+        flex-direction: row;
+        color: darkslategray;
+        font-family:  CircularPro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+        font-size:16px;
+        width: 100%;
+    }   
+    
+    
+    .last > ul{
+        justify-content: space-between;
+        align-items: stretch;
+   
+
+    }
+    
+    .last > .flag{
+        flex-direction: row;
+        justify-content: center;
+        font-size: 16px;
+        padding-bottom: 30px;
+        padding-top: 20px;
+}
+    .last > .socialmedia{
+        display: flex;
+        width: 100px;
+        justify-content: space-between;
+        align-content: center;
+        margin-right: 10px;
+        height: 50px;
+        padding-top: 20px;
+    }
+
+
+}
+
+
+@media only screen and (min-width: 962px) and (max-width: 1024px) {
+
+    .body{
+        margin: 0px;
+    }
+
+
+    /*Header */
+    
+    .flex-container-header{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-start;
+        align-content: flex-end;
+        align-items: flex-end;
+        width: 100%;
+    }
+    
+    .flex-container-header > button{
+        width: 40%;  
+        display: flex;
+        justify-content: center;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .flex-container-header > img{
+        display: flex;
+        align-self: center;
+        width: 100%;
+        
+    }
+    
+    .flex-container-main{
+        margin: 0;
+    }
+    
+    .imagen-configuration{ 
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: baseline;
+        flex-direction: row;
+        background-color: lightgray;
+    }
+
+   .imagen-configuration > img{
+        margin: -1px;
+        border-bottom: 1px solid #C0C0C0;
+        padding-top: 10px;
+        padding-left: 10px;
+        }
+    
+       .container{
+        display: flex;
+        flex-flow: wrap;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-content: space-between;
+        align-items: baseline;
+        margin: 20px;
+        padding: 10px;
+       
+    }
+    
+    .container > #a{
+        flex-grow: 1;
+        order: 1;
+    }
+    
+    .container > #b{
+        width: 50%;
+        order: 2;
+        
+    }
+    .container > #c{
+        order: 3;
+    }
+
+    
+    
+    .last{
+        display: flex;
+        align-items: center;
+        align-content: space-between;
+        justify-content: space-between;
+        background-color: lightgray;
+        flex-direction: row;
+        color: darkslategray;
+        font-family:  CircularPro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+        font-size:16px;
+        width: 100%;
+    }   
+    
+    
+    .last > ul{
+        justify-content: space-between;
+        align-items: stretch;
+   
+
+    }
+    
+    .last > .flag{
+        flex-direction: row;
+        justify-content: center;
+        font-size: 16px;
+        padding-bottom: 30px;
+        padding-top: 20px;
+}
+    .last > .socialmedia{
+        display: flex;
+        width: 100px;
+        justify-content: space-between;
+        align-content: center;
+        margin-right: 10px;
+        height: 50px;
+        padding-top: 20px;
+    }
+}
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+    
+    
+    nav ul{
+    display: block;
+    }   
+    
+    nav li{
+        list-style-type: none;
+        display: inline;
+        padding: 16px;
+   
+        
+    }
+    
+    .flex-container-navigator{
+    background-color: white;
+    justify-content:flex-start;
+    align-items: center;
+    align-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    width:100%;
+    flex-direction: row;
+        font-size:18px;
+    
+    }
+    .flex-container-navigator > #hamburguer{
+        display: none;
+    }
+    .flex-container-navigator >#slack{
+        justify-content: flex-start;
+
+    }
+    
+    
+    
+    .flex-container-header{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-start;
+        align-content: space-between;
+        align-items: flex-end;
+        width: 100%;
+    }
+    
+    .flex-container-header > button{
+        width: 40%;  
+        display: flex;
+        justify-content: center;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .flex-container-header > img{
+        display: flex;
+        align-self: center;
+        width: 100%;
+        
+    }
+     .container{
+        display: flex;
+        flex-flow: wrap;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-content: space-between;
+        align-items: baseline;
+        margin: 20px;
+       
+    }
+    
+    .container > #a{
+        flex-grow: 1;
+        order: 1;
+    }
+    
+    .container > #b{
+        width: 50%;
+        order: 2;
+        
+    }
+    #c{
+        display: flex;
+        justify-content: flex-start;
+        padding-top: 1px;
+        margin: 5px;
+   
+    }
+
+    .last{
+        display: flex;
+        align-items: center;
+        align-content: space-between;
+        justify-content: space-between;
+        background-color: lightgray;
+        flex-direction: row;
+        color: darkslategray;
+        font-family:  CircularPro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+        font-size:16px;
+        width: 100%;
+    }   
+    .last > ul{
+        justify-content: space-between;
+        align-items: stretch;
+   
+
+    }
+    
+    .last > .flag{
+        flex-direction: row;
+        justify-content: center;
+        font-size: 16px;
+        padding-bottom: 30px;
+        padding-top: 20px;
+}
+    .last > .socialmedia{
+        display: flex;
+        width: 100px;
+        justify-content: space-between;
+        align-content: center;
+        margin-right: 10px;
+        height: 50px;
+        padding-top: 20px;
+    }
+
+    
+}
